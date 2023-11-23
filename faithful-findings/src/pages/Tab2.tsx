@@ -84,7 +84,7 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Ceramah</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="List" />
+        {/* <ExploreContainer name="" /> */}
       </IonContent>
     </IonPage>
   );

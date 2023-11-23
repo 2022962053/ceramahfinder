@@ -34,20 +34,21 @@ const Tab4: React.FC = () => {
   }, []);
 
   return (
-    // <div>
-    //   <h1>Prayer Times</h1>
-    //   {loading ? (
-    //     <p>Loading prayer times...</p>
-    //   ) : (
-    //     <ul>
-    //       <li>Fajr: {prayerTimes?.Fajr}</li>
-    //       <li>Dhuhr: {prayerTimes?.Dhuhr}</li>
-    //       <li>Asr: {prayerTimes?.Asr}</li>
-    //       <li>Maghrib: {prayerTimes?.Maghrib}</li>
-    //       <li>Isha: {prayerTimes?.Isha}</li>
-    //     </ul>
-    //   )}
-    // </div>
+     <div>
+
+       <h1>Prayer Times</h1>
+       {loading ? (
+         <p>Loading prayer times...</p>
+       ) : (
+         <ul>
+           <li>Fajr: {prayerTimes?.Fajr}</li>
+           <li>Dhuhr: {prayerTimes?.Dhuhr}</li>
+           <li>Asr: {prayerTimes?.Asr}</li>
+           <li>Maghrib: {prayerTimes?.Maghrib}</li>
+           <li>Isha: {prayerTimes?.Isha}</li>
+         </ul>
+       )}
+     </div>
   );
 };
 
