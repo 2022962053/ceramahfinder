@@ -27,7 +27,7 @@ const MapContainer: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <LoadScript googleMapsApiKey="AIzaSyCRUfiI4BV3hWgPOU1jEZ6b4QeguZU4byU">
+        <LoadScript googleMapsApiKey="AIzaSyBnPO1DPagh3DSjh9Tc73MjkuM0bLRl7ks">
           <GoogleMap
             mapContainerStyle={mapStyles}
             zoom={13}
