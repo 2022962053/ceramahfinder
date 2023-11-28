@@ -1,5 +1,10 @@
 {
   "devDependencies": {
-    "react-scripts": "5.0.1"
+    "@types/ionic": "^3.19.0",
+    "@types/react": "^18.2.39",
+    "react-scripts": "^5.0.1"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.2"
   }
 }
